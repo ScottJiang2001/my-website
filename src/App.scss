@@ -1,9 +1,5 @@
 .App {
-	background-image: linear-gradient(
-		90deg,
-		rgba(35, 4, 249, 0.7) 0.88%,
-		rgba(156, 4, 249, 0.7) 98.86%
-	);
+	background-image: linear-gradient(90deg, rgba(35, 4, 249, 0.7) 0.88%, rgba(156, 4, 249, 0.7) 98.86%);
 	height: 100vh;
 	font-family: "Montserrat", sans-serif;
 }
@@ -18,22 +14,60 @@
 
 	.home {
 		padding-right: 15%;
-		font-weight: bold;
-		font-size: larger;
+		font-weight: bolder;
+		font-size: 25px;
 	}
 
 	.Options {
-		a {
-			padding-right: 30px;
-      font-size: large;
-      text-decoration: underline 0.08em rgba(0, 0, 0, 0);
-      transition: text-decoration-color 300ms;
+		ul {
+			padding: 0;
+			list-style: none;
+			display: flex;
+			flex-direction: row;
+			width: 600px;
+			text-align: center;
 		}
+		li {
+			position: relative;
+			padding-right: 60px;
+		}
+		a {
+			color: #fff;
+			font-size: 20px;
 
-    a:hover {
-      text-decoration-color: rgb(255, 255, 255);
-    }
+			text-decoration: none;
+			display: inline-block;
+			position: relative;
+			cursor: pointer;
+		}
+		a:after {
+			background: none repeat scroll 0 0 transparent;
+			bottom: 0;
+			content: "";
+			display: block;
+			height: 2px;
+			left: 50%;
+			position: absolute;
+			background: #fff;
+			transition: width 0.3s ease 0s, left 0.3s ease 0s;
+			width: 0;
+		}
+		a:hover:after {
+			width: 100%;
+			left: 0;
+		}
+	}
+}
 
+.Intro {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+	p {
+		font-size: 30px;
+		color: white;
+		width: 1000px;
 	}
 }
 
