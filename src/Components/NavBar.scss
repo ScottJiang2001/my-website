@@ -1,0 +1,99 @@
+.Navigation {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    width: 100%;
+
+    .leftSide {
+        margin-left: 60px;
+        flex: 15%;
+
+        a {
+            font-weight: bolder;
+            font-size: 25px;
+        }
+    }
+
+    .rightSide {
+        .Options {
+            margin-right: 60px;
+
+            .compact {
+                display: none;
+            }
+            a {
+                color: #fff;
+                font-size: 20px;
+                margin-left: 30px;
+
+                text-decoration: none;
+                display: inline-block;
+                position: relative;
+                cursor: pointer;
+            }
+            a:after {
+                background: none repeat scroll 0 0 transparent;
+                bottom: 0;
+                content: "";
+                display: block;
+                height: 2px;
+                left: 50%;
+                position: absolute;
+                background: #fff;
+                transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                width: 0;
+            }
+            a:hover:after {
+                width: 100%;
+                left: 0;
+            }
+            @media only screen and (max-width: 890px) {
+                a {
+                    font-size: 18px;
+                }
+            }
+
+            @media only screen and (max-width: 830px) {
+                .compact {
+                    display: flex;
+                }
+                a {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+    .dropDown {
+        @media screen and (min-width: 830px) {
+            display: none;
+        }
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        overflow: hidden;
+        background-color: rgba(50, 49, 102, 0.3);
+        border-radius: 25px;
+        a {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .collapsible {
+            height: 0px;
+            display: flex;
+            flex-direction: column;
+            transition: height ease 0.5s;
+        }
+        .collapsibleShow {
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            transition: height ease 0.5s;
+        }
+    }

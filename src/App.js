@@ -1,33 +1,31 @@
-import logo from "./logo.svg";
-import "./App.scss";
+
 import React, { Component } from 'react';
+import "./App.scss";
+import Typed from "react-typed";
+import NavBar from './Components/NavBar';
 
 function App() {
+	const skillStrings = [
+		'Frontend Development',
+		'Backend Development',
+		'Biomedical Technologies',
+		'Mobile Development',
+		'Computer Vision'];
 	return (
 		<div className="App">
-			<div className="Navigation">
-				<a className="home"> scott jiang </a>
-				<div className="Options">
-					<ul>
-						<li>
-							<a> Experience </a>
-						</li>
-						<li>
-							<a> Projects </a>
-						</li>
-						<li>
-							<a> Contact </a>
-						</li>
-						<li>
-							<a> Resume </a>
-						</li>
-					</ul>
-				</div>
+			<NavBar/>
+			<div className="Intro">
+				<p> Hey! 👋  Thanks for stopping by. My name’s Scott and I’m an undergraduate student at UBC who loves anything related to
+					<br />
+					<Typed
+						strings={skillStrings}
+						typeSpeed={50}
+						backSpeed={50}
+						loop
+					/>
+				</p>
 			</div>
-			<div className = "Intro">
-				<p> Hey! 👋  Thanks for stopping by. My name’s Scott and I’m an electrical and computer engineering student at UBC who loves
-Software Development</p>
-			</div>
+			{/* <Skills/> */}
 		</div>
 	);
 }
