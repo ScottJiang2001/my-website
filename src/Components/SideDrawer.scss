@@ -1,0 +1,29 @@
+.dropDown {
+    @media screen and (min-width: 830px) {
+        display: none;
+    }
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(50, 49, 102);
+    border-radius: 25px 0px 0px 25px;
+    height:100%;
+    position:fixed;
+    flex-direction: column;
+    width: 60%;
+    right:0;
+    z-index: 200;
+
+        a {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+
+    &.hide {
+        transform: translateX(+100%);
+    }
+}

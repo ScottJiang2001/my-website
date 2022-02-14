@@ -4,8 +4,11 @@
     color: white;
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
+    padding-top: 35px;
     width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
 
     .leftSide {
         margin-left: 60px;
@@ -67,33 +70,3 @@
         }
     }
 }
-
-    .dropDown {
-        @media screen and (min-width: 830px) {
-            display: none;
-        }
-        margin-top: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        overflow: hidden;
-        background-color: rgba(50, 49, 102, 0.3);
-        border-radius: 25px;
-        a {
-            font-size: 20px;
-            margin-top: 10px;
-        }
-        .collapsible {
-            height: 0px;
-            display: flex;
-            flex-direction: column;
-            transition: height ease 0.5s;
-        }
-        .collapsibleShow {
-            height: 180px;
-            display: flex;
-            flex-direction: column;
-            transition: height ease 0.5s;
-        }
-    }
