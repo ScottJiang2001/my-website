@@ -4,7 +4,32 @@
     align-items: center;
     flex-direction: column;
 
-    p {
-        font-size: 20px;
+    .descriptionAndPhoto {
+        display: flex;
+        flex-direction: horizontal;
+
+        .description {
+            width: 400px;
+
+            p {
+                font-size: 20px;
+
+                a {
+                    color: rgb(1, 255, 240);
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .Image {
+            img {
+                border-radius: 30px;
+                width: 300px;
+                filter: drop-shadow(30px 30px 1px rgba(50, 49, 102, 0.3));
+                margin-left: 30px;
+                margin-top: 50px;
+            }
+        }
     }
 }
