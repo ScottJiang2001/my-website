@@ -20,6 +20,7 @@ const UsersWrapper = styled.section`
 const UsersSliderContainer = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   height: 5rem;
   overflow: hidden;

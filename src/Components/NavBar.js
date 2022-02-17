@@ -4,18 +4,17 @@ import { Squash as Hamburger } from 'hamburger-react'
 import { useEffect } from 'react/cjs/react.production.min'
 
 const NavBar = props => {
-    const [showButtons, setShowButtons] = useState(false)
 
     return (
         <>
             <div className="Navigation">
                 <div className="leftSide">
-                    <a className="home"> scottj </a>
+                    <a className="home"> scott 江 </a>
                 </div>
                 <div className="rightSide">
                     <div className="Options">
                         <div className="compact">
-                            <Hamburger toggled={showButtons} toggle={() => setShowButtons(!showButtons)} onToggle = {props.showMenu} />
+                            <Hamburger toggled={props.menu} onToggle = {() => props.showMenu()} />
                         </div>
                         <a>About</a>
                         <a>Experience</a>

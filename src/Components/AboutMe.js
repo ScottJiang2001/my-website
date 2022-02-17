@@ -11,7 +11,7 @@ const AboutMe = () => {
             <Header Section="About Me" />
             <div className="descriptionAndPhoto">
                 <div className="description">
-                    <p>
+                    <p className="noPadding">
                         Hi! My name’s Scott and I’m an undergraduate student studying electrical
                         engineering at UBC. I started learning web development right after my first year
                         of university before doing my first Hackathon, where I learned a ton about HTML/CSS and

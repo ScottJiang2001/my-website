@@ -15,7 +15,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<NavBar showMenu={() => { setShowMenu(!showMenu); console.log(showMenu) }} />
+			<NavBar showMenu={() => setShowMenu(!showMenu)} menu={showMenu}/>
 			<SideDrawer show={showMenu}/>
 			{showMenu &&
 				<>
