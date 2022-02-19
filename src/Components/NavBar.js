@@ -4,10 +4,21 @@ import { Squash as Hamburger } from 'hamburger-react'
 import { useEffect } from 'react/cjs/react.production.min'
 
 const NavBar = props => {
+    const [navBar, setNavBar] = useState(false)
+
+    const changeNavBar = () => {
+        if (window.scrollY >= 20) {
+            setNavBar(true)
+        } else {
+            setNavBar(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeNavBar)
 
     return (
         <>
-            <div className="Navigation">
+            <div className={navBar ? "Navigation scroll" : "Navigation"}>
                 <div className="leftSide">
                     <a className="home"> scott 江 </a>
                 </div>

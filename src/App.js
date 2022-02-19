@@ -24,6 +24,8 @@ function App() {
 			}
 			<Intro />
 			<AboutMe />
+			<AboutMe />
+			<AboutMe />
 		</div>
 	);
 }
