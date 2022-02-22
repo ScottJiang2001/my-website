@@ -1,0 +1,109 @@
+.ExperienceCard {
+	flex-direction: row;
+	color: white;
+	align-items: center;
+	width: 700px;
+	background-color: rgba(50, 49, 102, 0.3);
+	border-radius: 20px;
+	margin-bottom: 25px;
+    height: 170px;
+    transition: height 0.5s;
+    overflow: hidden;
+
+    @media only screen and (max-width: 550px) {
+        height: 260px;
+    }
+
+	@media only screen and (max-width: 1000px) {
+		width: calc(100% - 50px);
+	}
+
+    &.Expand {
+        height: 300px;
+        transition: height 0.5s;
+
+        @media only screen and (max-width: 550px) {
+            height: 450px;
+        }
+    }
+	.companyAndInfo {
+		display: flex;
+		flex-direction: row;
+        margin-top: 20px;
+        align-items: center;
+
+        @media only screen and (max-width: 550px) {
+            flex-direction: column;
+            margin-top: 0;
+        }
+		.companyLogo {
+			align-items: center;
+			justify-content: center;
+
+			img {
+				border-radius: 15px;
+				height: 120px;
+				margin-left: 40px;
+
+				@media only screen and (max-width: 550px) {
+					margin-left: 0;
+					margin-top: 20px;
+				}
+			}
+		}
+
+		.information {
+			font-size: 18px;
+			margin-left: 40px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			p {
+				margin-top: 0;
+				margin-bottom: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+			}
+
+
+			@media only screen and (max-width: 550px) {
+				margin: 15px;
+			}
+		}
+	}
+
+	.icon {
+        position: relative;
+        bottom: 15px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+        .arrow {
+            cursor: pointer;
+            transition: transform 0.5s;
+
+            &.up {
+            transform: rotate(180deg);
+            transition: transform 0.5s;
+            }
+        }
+	}
+
+    .description {
+        overflow-wrap: break-word;
+        margin: 0 40px 0;
+        
+        p {
+            margin: 0;
+        }
+
+        .location {
+            margin-top: 10px;
+        }
+    }
+}

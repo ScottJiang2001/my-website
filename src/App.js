@@ -1,14 +1,12 @@
 
 import React, { Component, useState } from 'react';
 import "./App.scss";
-import Typed from "react-typed";
 import NavBar from './Components/NavBar';
 import SideDrawer from './Components/SideDrawer';
 import Backdrop from './Components/Backdrop';
-import UsersLogos from './Components';
-import { Skills } from './Components/Images/SkillsLogos';
 import Intro from './Components/Intro';
 import AboutMe from './Components/AboutMe';
+import Experience from './Components/Experience';
 
 function App() {
 	const [showMenu, setShowMenu] = useState(false)
@@ -24,8 +22,7 @@ function App() {
 			}
 			<Intro />
 			<AboutMe />
-			<AboutMe />
-			<AboutMe />
+			<Experience />
 		</div>
 	);
 }
