@@ -16,6 +16,8 @@ const Experience = () => {
 					date={company.date}
                     link={company.link}
                     location={company.location}
+					skills={company.skills}
+					description={company.description}
 				/>
 			))}
 		</div>

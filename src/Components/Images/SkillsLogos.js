@@ -132,7 +132,9 @@ export const experiences = [
         position:"Software Engineer Intern",
         date:"Janurary 2022 - Present",
         link:"https://legacy.smarttech.com/en/lumio",
-        location: "Calgary, AB"
+        location: "Calgary, AB",
+        skills: ["Vue", "Javascript", "Jest", "HTML", "Sass", "Pug"],
+        description: "Implemented user notification customization features on both our webapp and mobile platform.Integrated new sorting features on our mobile app allowing users to toggle between compact or normal process viewalong with optional sorting options such as alphabetical, last modified, or by tags. Refined user reported bugs and corresponded with our VP of product to modify existing UI"
     },
     {
         logo: knowhowLogo,
@@ -140,7 +142,9 @@ export const experiences = [
         position:"Software Engineer Intern",
         date:"May 2021 - August 2021",
         link: "https://tryknowhow.com/",
-        location: "Calgary, AB"
+        location: "Calgary, AB",
+        skills: ["React", "React Native", "Django","Javascript","Python"],
+        description: "Implemented user notification customization features on both our webapp and mobile platform.Integrated new sorting features on our mobile app allowing users to toggle between compact or normal process viewalong with optional sorting options such as alphabetical, last modified, or by tags. Refined user reported bugs and corresponded with our VP of product to modify existing UI"
     },
     {
         logo: bionicsLogo,
@@ -148,6 +152,8 @@ export const experiences = [
         position:"Software Developer",
         date:"November 2020 - February 2022",
         link: "https://ubcbionics.com/",
-        location: "Vancouver, BC"
+        location: "Vancouver, BC",
+        skills: ["Python", "OpenCV", "Pandas","Plotly"],
+        description: "building a surface electromyography (sEMG) detector for a bionic arm which detect electrical signals that determines its movements. Developed a live data visualizer that streams data directly from a Raspberry Pi and EMG sensors with Plotly Dash.  Implementing computer vision with OpenCV and Python to allow our bionic arm to identify household objects"
     },
 ]
