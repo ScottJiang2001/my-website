@@ -40,7 +40,7 @@ const ExperienceCard = (props) => {
 				</p>
 				<div className="skills">
 					{props.skills.map((skill) => (
-						<p> {skill} </p>
+						<span> {skill} </span>
 					))}
 				</div>
 				<p className="location"> {props.location}</p>

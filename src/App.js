@@ -7,6 +7,7 @@ import Backdrop from './Components/Backdrop';
 import Intro from './Components/Intro';
 import AboutMe from './Components/AboutMe';
 import Experience from './Components/Experience';
+import Projects from './Components/Projects';
 
 function App() {
 	const [showMenu, setShowMenu] = useState(false)
@@ -23,6 +24,7 @@ function App() {
 			<Intro />
 			<AboutMe />
 			<Experience />
+			<Projects />
 		</div>
 	);
 }

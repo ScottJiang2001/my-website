@@ -134,7 +134,7 @@ export const experiences = [
         link:"https://legacy.smarttech.com/en/lumio",
         location: "Calgary, AB",
         skills: ["Vue", "Javascript", "Jest", "HTML", "Sass", "Pug"],
-        description: "Implemented user notification customization features on both our webapp and mobile platform.Integrated new sorting features on our mobile app allowing users to toggle between compact or normal process viewalong with optional sorting options such as alphabetical, last modified, or by tags. Refined user reported bugs and corresponded with our VP of product to modify existing UI"
+        description: "Working on the Lumio mainline frontend team. Currently assisting in maintaining master metrics documentation. Updating and adding new unit tests. Implementing user stories regarding lesson sorting and easing teacher/student login experience."
     },
     {
         logo: knowhowLogo,
@@ -154,6 +154,6 @@ export const experiences = [
         link: "https://ubcbionics.com/",
         location: "Vancouver, BC",
         skills: ["Python", "OpenCV", "Pandas","Plotly"],
-        description: "building a surface electromyography (sEMG) detector for a bionic arm which detect electrical signals that determines its movements. Developed a live data visualizer that streams data directly from a Raspberry Pi and EMG sensors with Plotly Dash.  Implementing computer vision with OpenCV and Python to allow our bionic arm to identify household objects"
+        description: "building a surface electromyography (sEMG) detector for a bionic arm which detect electrical signals that determines its movements. Developed a live data visualizer that streams data directly from a Raspberry Pi and EMG sensors with Plotly Dash. Implementing computer vision with OpenCV and Python to allow our bionic arm to identify household objects"
     },
 ]
