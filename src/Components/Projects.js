@@ -1,24 +1,19 @@
 import React from "react";
 import Header from "./Header";
 import "./Projects.scss";
-import { experiences } from "./Images/SkillsLogos";
+import { projects } from "./Images/SkillsLogos";
 import ProjectCard from "./ProjectCard";
 import battleshipProject from"./Images/battleshipProject.png"
+import localsznProject from "./Images/localsznProject.png"
+
 
 const Projects = () => {
 	return (
 		<div className="Projects">
 			<Header Section="Projects" />
-			{experiences.map((company) => (
+			{projects.map((project) => (
 				<ProjectCard
-					logo={battleshipProject}
-					companyName={company.name}
-					position={company.position}
-					date={company.date}
-                    link={company.link}
-                    location={company.location}
-					skills={company.skills}
-					description={company.description}
+					logo={project.image}
 				/>
 			))}
 		</div>

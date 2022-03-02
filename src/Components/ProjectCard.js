@@ -6,9 +6,7 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 const ProjectCard = (props) => {
 	return (
 		<div className="ProjectCard">
-			<div className="projectPhoto">
-                <img src={props.logo} className="projectPhoto"/>
-            </div>
+			<div className="projectPhoto" style={{ backgroundImage: `url(${props.logo})` }}></div>
 			<div className="projectDescription">
                 asdfasdsadf
             </div>

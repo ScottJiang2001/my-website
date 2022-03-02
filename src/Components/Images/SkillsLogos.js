@@ -1,6 +1,10 @@
 import knowhowLogo from "./knowhowLogo.jpg"
 import smartLogo from "./smartLogo.jpg"
 import bionicsLogo from "./bionicsLogo.jpg"
+import battleshipProject from "./battleshipProject.png"
+import localsznProject from "./localsznProject.png"
+import dormbuddyProject from "./dormbuddyProject.gif"
+import websiteProject from "./websiteProject.png"
 
 
 export const JavaLogo = () => (
@@ -128,32 +132,66 @@ export const skillStrings = [
 export const experiences = [
     {
         logo: smartLogo,
-        name:"SMART",
-        position:"Software Engineer Intern",
-        date:"Janurary 2022 - Present",
-        link:"https://legacy.smarttech.com/en/lumio",
+        name: "SMART",
+        position: "Software Engineer Intern",
+        date: "Janurary 2022 - Present",
+        link: "https://legacy.smarttech.com/en/lumio",
         location: "Calgary, AB",
         skills: ["Vue", "Javascript", "Jest", "HTML", "Sass", "Pug"],
         description: "Working on the Lumio mainline frontend team. Currently assisting in maintaining master metrics documentation. Updating and adding new unit tests. Implementing user stories regarding lesson sorting and easing teacher/student login experience."
     },
     {
         logo: knowhowLogo,
-        name:"KnowHow",
-        position:"Software Engineer Intern",
-        date:"May 2021 - August 2021",
+        name: "KnowHow",
+        position: "Software Engineer Intern",
+        date: "May 2021 - August 2021",
         link: "https://tryknowhow.com/",
         location: "Calgary, AB",
-        skills: ["React", "React Native", "Django","Javascript","Python"],
+        skills: ["React", "React Native", "Django", "Javascript", "Python"],
         description: "Implemented user notification customization features on both our webapp and mobile platform.Integrated new sorting features on our mobile app allowing users to toggle between compact or normal process viewalong with optional sorting options such as alphabetical, last modified, or by tags. Refined user reported bugs and corresponded with our VP of product to modify existing UI"
     },
     {
         logo: bionicsLogo,
-        name:"UBC Bionics",
-        position:"Software Developer",
-        date:"November 2020 - February 2022",
+        name: "UBC Bionics",
+        position: "Software Developer",
+        date: "November 2020 - February 2022",
         link: "https://ubcbionics.com/",
         location: "Vancouver, BC",
-        skills: ["Python", "OpenCV", "Pandas","Plotly"],
+        skills: ["Python", "OpenCV", "Pandas", "Plotly"],
         description: "building a surface electromyography (sEMG) detector for a bionic arm which detect electrical signals that determines its movements. Developed a live data visualizer that streams data directly from a Raspberry Pi and EMG sensors with Plotly Dash. Implementing computer vision with OpenCV and Python to allow our bionic arm to identify household objects"
+    },
+]
+
+export const projects = [
+    {
+        name: "BattleShip (CPSC 210 Project)",
+        image: battleshipProject,
+        description: "2 player battleship game that allows players to place ships and alternate turns for placing ships",
+        skills: ["Java", "Java Swing", "JUnit"],
+        github: "https://github.com/ScottJiang2001/CPSC-210-Project",
+    },
+    {
+        name: "LocalSzn (Hack the 6ix 2020)",
+        image: localsznProject,
+        description: "An interactive web app created to help you make eco-friendly decisions when choosing produce; helping you save money, support local growers, and reduce your carbon footprint.",
+        skills: ["HTML", "CSS", "Javascript", "Firebase", "Python"],
+        github: "https://github.com/localproduce",
+        devpost: "https://devpost.com/software/localszn"
+    },
+    {
+        name: "DormBuddy (Calgary Hacks 2021)",
+        image: dormbuddyProject,
+        description: "DormBuddy allow students to move around in an e-dorm virtual environment, video call, and text each other. Students move between dorms and can interact with others and return to sessions.",
+        skills: ["HTML", "CSS", "Javascript", "Vue"],
+        github: "https://github.com/BenjaminSao/DormBuddies",
+        devpost: "https://devpost.com/software/dormbuddy"
+    },
+    {
+        name: "This Website!",
+        image: websiteProject,
+        description: "Personal porfolio for showing my expereience and projects. Built with ReactJS",
+        skills: ["React", "HTML", "Sass", "Javascript"],
+        github: "https://github.com/BenjaminSao/DormBuddies",
+        devpost: "https://devpost.com/software/dormbuddy"
     },
 ]

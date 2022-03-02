@@ -1,5 +1,5 @@
 .ProjectCard {
-    display: flex;
+	display: flex;
 	flex-direction: row;
 	color: white;
 	align-items: center;
@@ -7,16 +7,25 @@
 	background-color: rgba(50, 49, 102, 0.3);
 	border-radius: 20px;
 	margin-bottom: 25px;
-    height: 350px;
-    overflow: hidden;
+	height: 350px;
+	overflow: hidden;
 
-    @media only screen and (max-width: 1000px) {
+	@media only screen and (max-width: 1000px) {
 		width: calc(100% - 50px);
 	}
 
-    .projectPhoto {
-        width: 100px;
-        
-    }
+	.projectPhoto {
+		width: 33%;
+		height: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: rgba(50, 49, 102, 0.3);
+		background-blend-mode: multiply;
+		transition: background-color 0.3s;
+
+		&:hover {
+			background-color: transparent;
+			transition: background-color 0.3s;
+		}
+	}
 }
- 
