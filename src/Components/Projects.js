@@ -14,6 +14,11 @@ const Projects = () => {
 			{projects.map((project) => (
 				<ProjectCard
 					logo={project.image}
+					name={project.name}
+					description={project.description}
+					skills={project.skills}
+					github={project.github}
+					devpost={project.devpost}
 				/>
 			))}
 		</div>
