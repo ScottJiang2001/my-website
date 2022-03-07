@@ -27,11 +27,11 @@ const NavBar = props => {
                         <div className="compact">
                             <Hamburger toggled={props.menu} onToggle = {() => props.showMenu()} />
                         </div>
-                        <a>About</a>
-                        <a>Experience</a>
-                        <a>Projects</a>
-                        <a>Contact</a>
-                        <a>Resume</a>
+                        <a href="#about">About</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#resume">Resume</a>
                     </div>
                 </div>
             </div>

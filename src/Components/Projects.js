@@ -3,13 +3,11 @@ import Header from "./Header";
 import "./Projects.scss";
 import { projects } from "./Images/SkillsLogos";
 import ProjectCard from "./ProjectCard";
-import battleshipProject from"./Images/battleshipProject.png"
-import localsznProject from "./Images/localsznProject.png"
 
 
 const Projects = () => {
 	return (
-		<div className="Projects">
+		<div className="Projects" id="projects">
 			<Header Section="Projects" />
 			{projects.map((project) => (
 				<ProjectCard

@@ -1,0 +1,28 @@
+.Contact {
+	padding-bottom: 50px;
+
+	.contactLogos {
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		display: flex;
+
+		span {
+			padding: 20px 40px 0px;
+
+			@media only screen and (max-width: 575px) {
+				padding: 20px 30px 0px;
+			}
+
+			svg {
+				width: 40px;
+				height: 40px;
+
+				@media only screen and (max-width: 575px) {
+					width: 30px;
+					height: 30px;
+				}
+			}
+		}
+	}
+}

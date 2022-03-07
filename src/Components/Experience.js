@@ -6,7 +6,7 @@ import { experiences } from "./Images/SkillsLogos";
 
 const Experience = () => {
 	return (
-		<div className="Experience">
+		<div className="Experience" id="experience">
 			<Header Section="Experience" />
 			{experiences.map((company) => (
 				<ExperienceCard
