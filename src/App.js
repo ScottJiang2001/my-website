@@ -15,7 +15,7 @@ function App() {
 	return (
 		<div className="App">
 			<NavBar showMenu={() => setShowMenu(!showMenu)} menu={showMenu} />
-			<SideDrawer show={showMenu} />
+			<SideDrawer show={showMenu} showMenu={() => setShowMenu(!showMenu)}/>
 			{showMenu && (
 				<>
 					<Backdrop showMenu={() => setShowMenu(!showMenu)} />
@@ -23,7 +23,7 @@ function App() {
 			)}
 			<Intro />
 			<AboutMe />
-			<Experience id="experience"/>
+			<Experience/>
 			<Projects />
 			<Contact />
 			<footer>

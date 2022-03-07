@@ -50,6 +50,7 @@
 		flex-direction: column;
 		display: flex;
 		background-size: cover;
+		border-radius: 20px;
 
 
 		@media only screen and (min-width: 700px) {
@@ -82,6 +83,7 @@
 
 			.skills {
 				margin-top: 10px;
+				margin-bottom: 5px;
 				span {
 					color: white;
 					display: inline-block;
