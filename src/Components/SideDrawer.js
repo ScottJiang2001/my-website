@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./SideDrawer.scss";
-import pdf from "./Images/webResume_old.pdf";
+import pdf from "./Images/Scottjiang_resume_2022.pdf";
 
 const SideDrawer = (props) => {
 	const menuOptions = [

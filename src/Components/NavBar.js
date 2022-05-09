@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./NavBar.scss";
 import { Squash as Hamburger } from "hamburger-react";
 import { useEffect } from "react/cjs/react.production.min";
-import pdf from "./Images/webResume_old.pdf";
+import pdf from "./Images/Scottjiang_resume_2022.pdf";
 
 const NavBar = (props) => {
 	const [navBar, setNavBar] = useState(false);
