@@ -27,7 +27,8 @@ function App() {
 			<Projects />
 			<Contact />
 			<footer>
-				Designed & Coded by Scott Jiang ❤️
+				@ Copyright 2022, Carbon 3D All Rights Reserved Standard Terms
+				Scott Jiang Web Dev
 			</footer>
 		</div>
 	);
