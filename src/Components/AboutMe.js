@@ -3,7 +3,7 @@ import "./AboutMe.scss";
 import UsersLogos from ".";
 import { Skills } from "./Images/SkillsLogos";
 import Header from "./Header";
-import scottphoto from "./Images/scottphoto.jpeg";
+import scottphoto from "./Images/scott_photo.jpg";
 
 const AboutMe = () => {
 	return (
