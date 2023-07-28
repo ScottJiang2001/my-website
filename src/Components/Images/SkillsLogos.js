@@ -154,7 +154,7 @@ export const experiences = [
         logo: smartLogo,
         name: "SMART",
         position: "Software Engineer Intern",
-        date: "Janurary 2022 - Present",
+        date: "Janurary 2022 - August 2022",
         link: "https://legacy.smarttech.com/en/lumio",
         location: "Calgary, AB",
         skills: ["Vue", "Javascript", "Jest", "HTML", "Sass", "Pug"],
