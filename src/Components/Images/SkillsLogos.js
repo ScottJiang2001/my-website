@@ -6,6 +6,7 @@ import localsznProject from "./localsznProject.png"
 import dormbuddyProject from "./dormbuddyProject.gif"
 import websiteProject from "./websiteProject.png"
 import setGame from "./setGame.png"
+import amazonLogo from "./amazonLogo.jpeg"
 
 
 export const JavaLogo = () => (
@@ -157,6 +158,16 @@ export const skillStrings = [
     'Computer Vision'];
 
 export const experiences = [
+    {
+        logo: amazonLogo,
+        name: "Amazon",
+        position: "Incoming Software Engineer Intern",
+        date: "May 2024 - August 2024",
+        link: "https://legacy.smarttech.com/en/lumio",
+        location: "Vancouver, BC",
+        skills: [],
+        description: "Stay tuned!"
+    },
     {
         logo: smartLogo,
         name: "SMART",
