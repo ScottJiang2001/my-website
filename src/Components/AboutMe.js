@@ -12,8 +12,7 @@ const AboutMe = () => {
 			<div className="descriptionAndPhoto">
 				<div className="description">
 					<p>
-						Hi, thanks for stopping by! My name's Scott and I'm an undergraduate student studying electrical engineering at UBC. Feel free to take a look around!	
-					</p>
+						I'm from Calgary, Alberta (go flames🔥) and currently studying Electrical Engineering at the University of British Columbia in Vancouver, BC. I love going to the gym 💪 and playing video games 🎮 in my free time.				</p>
 					<p>These are some technologies I’ve worked with:</p> 
 					<UsersLogos users={Skills} />
 				</div>

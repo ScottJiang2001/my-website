@@ -1,12 +1,12 @@
 import knowhowLogo from "./knowhowLogo.jpg"
 import smartLogo from "./smartLogo.jpg"
-import bionicsLogo from "./bionicsLogo.jpg"
 import battleshipProject from "./battleshipProject.png"
 import localsznProject from "./localsznProject.png"
 import dormbuddyProject from "./dormbuddyProject.gif"
 import websiteProject from "./websiteProject.png"
 import setGame from "./setGame.png"
 import amazonLogo from "./amazonLogo.jpeg"
+import teslaLogo from "./teslaLogo.jpeg"
 
 
 export const JavaLogo = () => (
@@ -159,14 +159,24 @@ export const skillStrings = [
 
 export const experiences = [
     {
+        logo: teslaLogo,
+        name: "Tesla",
+        position: "Incoming Software Engineer Intern",
+        date: "Sept 2024 - Dec 2024",
+        link: "https://www.tesla.com/",
+        location: "Fremont, CA",
+        skills: [],
+        description: "📱 Digital Experiences"
+    },
+    {
         logo: amazonLogo,
         name: "Amazon",
-        position: "Incoming Software Engineer Intern",
+        position: "Software Engineer Intern",
         date: "May 2024 - August 2024",
-        link: "https://legacy.smarttech.com/en/lumio",
+        link: "https://www.amazon.com/",
         location: "Vancouver, BC",
-        skills: [],
-        description: "Stay tuned!"
+        skills: ["Java", "Typescript", "Lambda", "SNS", "StepFunctions", "Cloudwatch", "Cloudformation"],
+        description: "💳 Payments Archivault"
     },
     {
         logo: smartLogo,
@@ -176,7 +186,7 @@ export const experiences = [
         link: "https://legacy.smarttech.com/en/lumio",
         location: "Calgary, AB",
         skills: ["Vue", "Javascript", "Jest", "HTML", "Sass", "Pug"],
-        description: "Working on the Lumio mainline frontend team. Currently assisting in maintaining master metrics documentation. Updating and adding new unit tests. Implementing user stories regarding lesson sorting and easing teacher/student login experience."
+        description: "📖 Lumio Mainline Frontend Team"
     },
     {
         logo: knowhowLogo,
@@ -186,17 +196,7 @@ export const experiences = [
         link: "https://tryknowhow.com/",
         location: "Calgary, AB",
         skills: ["React", "React Native", "Django", "Javascript", "Python"],
-        description: "Implemented user notification customization features on both our webapp and mobile platform.Integrated new sorting features on our mobile app allowing users to toggle between compact or normal process viewalong with optional sorting options such as alphabetical, last modified, or by tags. Refined user reported bugs and corresponded with our VP of product to modify existing UI"
-    },
-    {
-        logo: bionicsLogo,
-        name: "UBC Bionics",
-        position: "Software Developer",
-        date: "November 2020 - February 2022",
-        link: "https://ubcbionics.com/",
-        location: "Vancouver, BC",
-        skills: ["Python", "OpenCV", "Pandas", "Plotly"],
-        description: "building a surface electromyography (sEMG) detector for a bionic arm which detect electrical signals that determines its movements. Developed a live data visualizer that streams data directly from a Raspberry Pi and EMG sensors with Plotly Dash. Implementing computer vision with OpenCV and Python to allow our bionic arm to identify household objects"
+        description: "🏗️ Full-stack & mobile Development"
     },
 ]
 
